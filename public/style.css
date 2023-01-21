@@ -1,0 +1,120 @@
+html {
+    background-image: url('green\ neutrals\ desktop.jfif');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-family: Muli, sans-serif;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+
+.todo{
+    
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    padding:1em;
+    margin:0em 28rem;
+    border-radius: 1%;   
+
+ 
+}
+#del{
+    background-color: #84fc6b;
+    background-image: -o-linear-gradient(180deg, #294424 50%, #84fc6b 50%);
+    text-align: center;
+    font-size:1.9em;
+    margin-top: -1.7em;
+    margin-left: 4.4em;
+    box-shadow: .1em .1em .1em -.01em rgb(41, 41, 41);
+;
+}
+#del:hover{
+    background-color: #f41212;
+   
+}
+#heading{
+background-color: #84fc6b;
+background-image: -o-linear-gradient(20deg, #419330 50%, #84fc6b 50%);
+text-align: center;
+box-shadow: .2em .2em .2em -.01em rgb(41, 41, 41);
+;
+}
+input[type='checkbox']{
+margin:.5em;
+}
+input:checked+p{
+    text-decoration-color: black;
+    text-decoration: line-through;
+}
+p{
+    display: inline;
+    margin :0;
+    padding:.1em;
+    font-size: 1em;
+    font-weight: 200;
+    color:#00204a;
+}
+form{
+    text-align: center;
+    margin-left:0em;
+}
+button{
+    width:1.6em;
+    background-color: #84fc6b;
+    border-radius: 50%;
+    color: white;
+    padding: .2em .2em;
+    border-color: transparent;
+    font-size: 30px;
+    border-width: 0;
+    position: absolute;
+    z-index: 1;
+margin-left: 11em; 
+box-shadow:.1em .1em .1em -.01em rgb(41, 41, 41) 
+  
+   
+}
+.box{
+    width:24rem;
+    margin: 0.1rem;
+    background:white;
+    border-radius: 1%;
+    box-shadow: .1em .1em 1em -.1em rgb(41, 41, 41);
+
+}
+.item{
+    min-height:3.5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.item:last-child{
+    border-bottom:0;
+   
+}
+input[type=text]{
+    margin-top:-.3rem;
+   text-align: center;
+   height:2em;
+   font-weight: 400;
+   border-radius: 1%;
+   border: none;
+   padding: .9rem 8em;
+   background-color: white;
+   width:18rem;
+ 
+
+}
+input[type=text]:focus{
+    outline: none;
+    box-shadow: 0 -1px 0 0 rgb(7, 176, 7) inset;
+}
+::placeholder{
+    color:grey;
+    opacity: 1;
+}
+footer{
+    color:white;
+    color:rgba(0,0,0,0.5);
+    text-align: center;
+}

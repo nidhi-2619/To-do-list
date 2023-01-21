@@ -1,0 +1,29 @@
+<%- include('header') %>
+<div class="todo">
+<div class="box" id="heading">
+    <h1  ><%= title%> </h1>
+</div>
+<div class="box">
+<% for(let i=0;i<items.length;i++){%>
+<div class="item">
+    <input type="checkbox" >    
+    <p><%= items[i]%></p>
+    </div>
+    <form action="/deleteItem" method="post">
+        <input type="hidden" name="list" value=<%=title %>>
+        <button type="submit" id="del" name="button" value="<%= title %>">×</button>
+    </form>
+<% }%>
+<form class='item'action="/" method="post">
+    <input type="text" name="item"  placeholder="New Items" autocomplete="off">
+ 
+    <button   type="submit" name="list" value=<%=title%>>+</button>
+    
+
+</form>
+
+</div>
+
+</div>
+
+<%- include('footer') %>
