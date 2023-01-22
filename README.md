@@ -3,7 +3,7 @@
 
 To run the app please install the npm module and dependencies
 ```
-npm i install
+npm install
 ```
 ## Features :
 We can add items , delete items and check list the items<br>
